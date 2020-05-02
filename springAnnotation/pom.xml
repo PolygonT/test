@@ -10,9 +10,9 @@
     <packaging>jar</packaging>
     <dependencies>
         <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-context</artifactId>
-        <version>5.2.5.RELEASE</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.2.5.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -25,6 +25,7 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <!--spring整合junit-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>

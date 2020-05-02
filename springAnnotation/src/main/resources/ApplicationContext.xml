@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+<!--为什么这个不行？<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">-->
+
+        <!--用于扫描该包下的注解
+            @Component 与下面三个注解功能基本相同
+            @Controller 一般用于表现层
+            @Service 一般用于业务层
+            @Repository 一般用于持久层
+            ==========================
+            @AutoWired 自动按照类型注入注入，相当于<bean>标签中的<properties>标签
+            @Qualified 配合AutoWired使用，value属性指定bean的id
+            @Resource 独立使用，name属性指定bean的id
+            ==========================
+            @Value 注入基本类型数剧，value属性用于指定数剧的值，可以使用SpEL(spring中的EL表达式)
+            *集合类型只能通过xml注入*
+            ==========================
+            @Scope 指定bean的作用范围，value属性指定范围的取值，常用取值：singleton,prototype，不写默认单例
+
+            -->
+        <context:component-scan base-package="com"></context:component-scan>
+</beans>

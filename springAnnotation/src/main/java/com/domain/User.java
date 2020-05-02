@@ -1,9 +1,11 @@
 package com.domain;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
 import java.util.Date;
 
+@Controller
 public class User {
     private String name;
     private Integer age;

@@ -1,7 +1,8 @@
 package com.domain;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class Car {
     private String carName;
     private String color;
