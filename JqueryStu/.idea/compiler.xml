@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springMVCStu2" />
-        <module name="springMVCStu" />
+        <module name="JqueryStu" />
       </profile>
     </annotationProcessing>
   </component>
