@@ -7,7 +7,7 @@
   <groupId>org.example</groupId>
   <artifactId>JqueryStu</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <name>JqueryStu Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
@@ -25,6 +25,11 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
     </dependency>
   </dependencies>
 

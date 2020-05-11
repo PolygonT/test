@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>function fun() {
+        /*$.ajax({
+            url:"/ajaxServlet",
+            type:"POST",
+            data:{"username":"tom","age":23},
+            success:function () {  //响应成功后执行此函数
+                alert(this.data);
+            },
+            error:function () {
+                alert("bad");
+            },
+            dataType:"text"    //设置接收到的响应数剧的格式
+
+        })*/
+
+        /*$.get("/ajaxServlet",{username:"rose"},function () {
+            alert(this.data);
+        });*/
+        $.post("/ajaxServlet",{username:"rose"},function () {
+            alert(this.data);
+        },"text");
+    }
+
+    /*$(function () { //入口函数
+            let $div1 = $("#div1");
+            let $div2 = $("#div2");
+            let $div3 = $("#div3");
+
+            $div1.empty();
+            $div1.text("abc");
+            $div2.remove();
+            $div2.text("bcd");
+        })*/
+    </script>
+</head>
+<body>
+
+    <div id="div1">div1</div>
+    <div id="div2">div2</div>
+    <div id="div3" >div3
+        <br>
+        <input type="button" onclick="fun();" value="点tm的">
+    </div>
+
+
+
+
+</body>
+</html>

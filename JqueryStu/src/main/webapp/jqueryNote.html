@@ -30,8 +30,19 @@
      *      属性选择器   A[属性名='值']
      *      复合属性选择器 A[属性名='值'][属性名='值']...
      * 4.过滤选择器
+     *      :first
+     *      :last
+     *      :even 偶数
+     *      :odd 奇数
+     *      :eq(number)
+     *      :gt(number)
+     *      :lt(number)
+     *      :header 获得标题元素
      * 5.表单过滤选择器
-     *
+     *      :enabled
+     *      :disabled
+     *      :checked
+     *      :selected
      *
      */
 
@@ -40,6 +51,37 @@
      * .val()获取标签的value属性
      * .html() 获取标签体内容
      * .text() 获取文本内容
+     *
+     * 属性操作
+     * 1.通用属性操作
+     * attr()
+     * removeAttr()
+     * prop()
+     * removeProp
+     *
+     * attr和prop的区别:
+     *  元素固有属性用prop，自定义属性用attr
+     *
+     *  2.对class属性操作
+     * addClass()
+     * removeClass()
+     * toggleClass() 存在则删除，不存在则创建
+     *
+     * 3.CRUD操作
+     * 放到元素内部
+     * append() 1.append(2) 将2追加到元素1，放在后面
+     * prepend()
+     * appendTo()
+     * prependTo()
+     *
+     * 放到元素前后，并行关系
+     * after()
+     * before()
+     * insertAfter()
+     * insertBefore()
+     *
+     * remove() 移除元素
+     * empty()  清空元素内容
      */
 
 </script>
