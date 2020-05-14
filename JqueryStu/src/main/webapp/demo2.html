@@ -5,7 +5,7 @@
     <title>Title</title>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script>function fun() {
-        /*$.ajax({
+        $.ajax({
             url:"/ajaxServlet",
             type:"POST",
             data:{"username":"tom","age":23},
@@ -17,14 +17,16 @@
             },
             dataType:"text"    //设置接收到的响应数剧的格式
 
-        })*/
+        })
 
-        /*$.get("/ajaxServlet",{username:"rose"},function () {
+
+        // ?????
+        /*$.get("/ajaxServlet","application/json;charset=UTF-8",{username:"rose"},function () {
             alert(this.data);
-        });*/
-        $.post("/ajaxServlet",{username:"rose"},function () {
+        },"json");*/
+        /*$.post("/ajaxServlet",{username:"rose"},function () {
             alert(this.data);
-        },"text");
+        },"text");*/
     }
 
     /*$(function () { //入口函数
@@ -37,6 +39,7 @@
             $div2.remove();
             $div2.text("bcd");
         })*/
+
     </script>
 </head>
 <body>

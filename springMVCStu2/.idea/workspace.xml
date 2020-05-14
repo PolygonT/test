@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d6d1234-2bf4-49ff-ad6d-a8614c535120" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JqueryStu/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JqueryStu/src/main/java/com/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JqueryStu/src/main/webapp/jsonStu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JqueryStu/src/test/java/com/test/DateTimeFormatterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JqueryStu/src/test/java/com/test/jacksonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/ajaxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/testAjax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/springMVCStu3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/src/main/java/com/controller/ajaxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/src/main/resources/ApplicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/src/main/webapp/ajaxTest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/src/main/webapp/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVCStu3/src/main/webapp/testAjax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JqueryStu/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JqueryStu/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JqueryStu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JqueryStu/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JqueryStu/src/main/webapp/demo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JqueryStu/src/main/webapp/demo2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JqueryStu/src/main/webapp/js/jquery-3.5.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVCStu/src/main/java/com/controller/annoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVCStu/src/main/java/com/controller/annoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../develop/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\develop\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bt3GeVs7m2F79lpdjUfWPJgpCA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d6d1234-2bf4-49ff-ad6d-a8614c535120" name="Default Changelist" comment="" />
+      <created>1589437467780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589437467780</updated>
+      <workItem from="1589437470622" duration="3000" />
+    </task>
+    <servers />
+  </component>
+</project>

@@ -46,7 +46,7 @@ public class annoController {
         return "success";
     }
 
-    /*@RequestMapping("/testModelAttribute")
+    @RequestMapping("/testModelAttribute")
     public String testModelAttribute(User user) {
         System.out.println(user);
         return "success";
@@ -60,9 +60,9 @@ public class annoController {
         user.setAge(11);
         user.setName("张三");
         return user;
-    }*/
+    }
     //另一种写法,无返回值,利用map集合
-    @RequestMapping("/testModelAttribute")
+   /* @RequestMapping("/testModelAttribute")
     public String testModelAttribute(@ModelAttribute(value = "1") User user) {
         System.out.println(user);
         return "success";
@@ -76,7 +76,7 @@ public class annoController {
         user.setAge(11);
         user.setName("张三");
         map.put("1",user);
-    }
+    }*/
 
     @RequestMapping("/testSessionAttributes")
     public String testSessionAttributes(Model model) {
